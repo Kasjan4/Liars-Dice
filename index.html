@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liar's Dice</title>
+  <link rel="icon" href="./img/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="main.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="intro">
+    <img class="rules" src="./img/rules.png" />
+    <button class="play">PLAY</button>
+  </div>
+
+
+  <div class="al-left">
+    <img class="pirate1" src="./img/pirate1.png" />
+    <div class="bubble-left">
+      <p class="pirate-1-speech" ></p>
+    </div>
+
+
+    </div>
+  </div>
+
+  <div class="al-right">
+    <img class="pirate2" src="./img/pirate2.png" />
+    <div class="bubble-right">
+      <p class="pirate-2-speech" ></p>
+    </div>
+  </div>
+
+
+  <div class="game">
+
+    <div class="opponents">
+
+
+      <div class="cup">
+        <img class="cup-al" src="./img/cup.png" />
+        <div class="dice-wrapper dice-al1">
+          <div class="dice b1">1</div>
+          <div class="dice b2">2</div>
+          <div class="dice b3">3</div>
+          <div class="dice b4">4</div>
+          <div class="dice b5">5</div>
+        </div>
+      </div>
+
+
+      <div class="cup">
+        <img class="cup-al" src="./img/cup.png" />
+        <div class="dice-wrapper dice-al2">
+          <div class="dice c1">1</div>
+          <div class="dice c2">2</div>
+          <div class="dice c3">3</div>
+          <div class="dice c4">4</div>
+          <div class="dice c5">5</div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="player">
+      <div class="cup">
+        <img class="cup-player" src="./img/cup.png" />
+        <div class="dice-wrapper">
+          <div class="dice a1">1</div>
+          <div class="dice a2">2</div>
+          <div class="dice a3">3</div>
+          <div class="dice a4">4</div>
+          <div class="dice a5">5</div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="controls">
+      <button class="roll">ROLL</button>
+      <button class="liar">LIAR!</button>
+    </div>
+
+
+    <div class="bet-menu">
+
+      <label for="dice-type">Dice Face</label>
+      <p class="dice-type-current">1</p>
+      <input id="dice-type" value="0" type="range" max="5"></input>
+
+      <label for="dice-count">No of dice</label>
+      <p class="dice-count-current">1</p>
+      <input id="dice-count" value="0" type="range" max="14"></input>
+
+      <button class="bet-increase">BET</button>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+  <audio loop class="amb" src="./aud/amb.m4a"></audio>
+  <audio class="shake" src="./aud/shake.wav"></audio>
+  <audio class="grunt" src=""></audio>
+
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
