@@ -17,10 +17,10 @@ const pirateTwoSpeech = document.querySelector('.pirate-2-speech')
 
 var diceDivs = []
 
-// for showing al dice when liar is called, adds class of cup-player
+// ! for showing al dice when liar is called, adds class of cup-player
 const cupAl = document.querySelectorAll('.cup-al')
 
-// al dice, to be shown when liar is called
+// ! al dice, to be shown when liar is called
 const diceAl1 = document.querySelector('.dice-al1')
 const diceAl2 = document.querySelector('.dice-al2')
 
@@ -40,21 +40,21 @@ const diceCountCurrent = document.querySelector('.dice-count-current')
 const betIncrease = document.querySelector('.bet-increase')
 
 
-// Player dice
+// ! Player dice
 const a1 = document.querySelector('.a1')
 const a2 = document.querySelector('.a2')
 const a3 = document.querySelector('.a3')
 const a4 = document.querySelector('.a4')
 const a5 = document.querySelector('.a5')
 
-// Al1 dice
+// ! Al1 dice
 const b1 = document.querySelector('.b1')
 const b2 = document.querySelector('.b2')
 const b3 = document.querySelector('.b3')
 const b4 = document.querySelector('.b4')
 const b5 = document.querySelector('.b5')
 
-// Al2 dice
+// ! Al2 dice
 const c1 = document.querySelector('.c1')
 const c2 = document.querySelector('.c2')
 const c3 = document.querySelector('.c3')
