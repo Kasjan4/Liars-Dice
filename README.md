@@ -1,7 +1,7 @@
 # Liars Dice
 
 
-The dice game based on deception re-created in pure JavaScript.
+The dice game based on deception re-created in HTML, CSS and pure JavaScript.
 
 [PLAY HERE](https://kasjanhinc.github.io/Liars-Dice/)
 
