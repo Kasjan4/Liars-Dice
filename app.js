@@ -1,4 +1,10 @@
 
+// LOADER ON START
+
+$(window).on('load', function () {
+  $('.loader-wrapper').slideUp()
+})
+
 // ! Game variables
 
 const roll = document.querySelector('.roll')
